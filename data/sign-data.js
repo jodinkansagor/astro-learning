@@ -6,7 +6,11 @@ const aries = {
     element: 'fire',
     ruler: 'Mars',
     modality: 'cardinal',
-    description: 'As a fire symbol, Aries suggests aggression and courage. Aries folks meet life head on. Aries is also the youngest of all the signs and often approach the world with a childlike wonder.'
+    planets: {
+        sun: 'As a fire symbol, Aries suggests aggression, confidence, energy, and courage. Aries folks meet life head on. They are also the youngest of all the signs and often approach the world with a childlike wonder. That newness can be refreshing, like the spring after a long and cold winter. It can also bring a sense of naivite that can be charming and also frustrating due their common lack of follow through. Those born under the Aries Sun are often leaders, in fact the leaders of the leaders. These self-starters know how to get you out of a jam.',
+        moon: 'aris moon',
+        rising: 'aries rising',
+    }
 };
 
 const taurus = {
@@ -17,7 +21,11 @@ const taurus = {
     element: 'earth',
     ruler: 'Venus',
     modality: 'fixed',
-    description: 'Taurus can be the stubborn, always the bull headed one. Taureans are also super sensual, being of'
+    planets: {
+        sun: 'Sweet determined Taurus, things never go unfinished when you are around. Folks born under a Taurus sun are the epitome of determination and maybe more than a little stubborn. These bulls cannot be rushed, but never fear, they will cross that finish line. Taureans tend to be the most sensual of the earth signs, seeking through their senses, particularly touch. Taurus natives also tend to have a very particular knack for finding beauty and comfort in physical possessions and earthly abundance.',
+        moon: 'taurus moon',
+        rising: 'taurus rising'
+    }
 };
 
 const gemini = {
@@ -28,7 +36,11 @@ const gemini = {
     element: 'air',
     ruler: 'Mercury',
     modality: 'mutable',
-    description: 'The best sign ever'
+    planets: {
+        sun: 'gemini sun',
+        moon: 'gemini moon',
+        rising: 'gemini rising'
+    }
 };
 
 const cancer = {
@@ -39,7 +51,11 @@ const cancer = {
     element: 'water',
     ruler: 'Moon',
     modality: 'cardinal',
-    description: 'tender and squishy'
+    planets: {
+        sun: 'cancer sun',
+        moon: 'cancer moon',
+        rising: 'cancer rising'
+    }
 };
 
 const leo = {
@@ -50,7 +66,11 @@ const leo = {
     element: 'fire',
     ruler: 'Sun',
     modality: 'fixed',
-    description: 'As a fire symbol, Aries suggests aggression and courage. Aries folks meet life head on. Aries is also the youngest of all the signs and often approach the world with a childlike wonder.'
+    planets: {
+        sun: 'leo sun',
+        moon: 'leo moon',
+        rising: 'leo rising'
+    }
 };
 
 const virgo = {
@@ -61,7 +81,11 @@ const virgo = {
     element: 'earth',
     ruler: 'Mercury',
     modality: 'mutable',
-    description: 'As a fire symbol, Aries suggests aggression and courage. Aries folks meet life head on. Aries is also the youngest of all the signs and often approach the world with a childlike wonder.'
+    planets: {
+        sun: 'virgo sun',
+        moon: 'virgo moon',
+        rising: 'virgo rising'
+    }
 };
 
 const libra = {
@@ -72,7 +96,11 @@ const libra = {
     element: 'air',
     ruler: 'Venus',
     modality: 'cardinal',
-    description: 'As a fire symbol, Aries suggests aggression and courage. Aries folks meet life head on. Aries is also the youngest of all the signs and often approach the world with a childlike wonder.'
+    planets: {
+        sun: 'libra sun',
+        moon: 'libra moon',
+        rising: 'libra rising'
+    }
 };
 
 const scorpio = {
@@ -83,7 +111,11 @@ const scorpio = {
     element: 'water',
     ruler: ['Pluto', 'Mars'],
     modality: 'fixed',
-    description: 'As a fire symbol, Aries suggests aggression and courage. Aries folks meet life head on. Aries is also the youngest of all the signs and often approach the world with a childlike wonder.'
+    planets: {
+        sun: 'scorpio sun',
+        moon: 'scorpio moon',
+        rising: 'scorpio rising'
+    }
 };
 
 const sagitarius = {
@@ -94,7 +126,11 @@ const sagitarius = {
     element: 'fire',
     ruler: 'Jupiter',
     modality: 'mutable',
-    description: 'As a fire symbol, Aries suggests aggression and courage. Aries folks meet life head on. Aries is also the youngest of all the signs and often approach the world with a childlike wonder.'
+    planets: {
+        sun: 'sag sun',
+        moon: 'sag moon',
+        rising: 'sag rising'
+    }
 };
 
 const capricorn = {
@@ -105,7 +141,11 @@ const capricorn = {
     element: 'earth',
     ruler: 'Saturn',
     modality: 'cardinal',
-    description: 'As a fire symbol, Aries suggests aggression and courage. Aries folks meet life head on. Aries is also the youngest of all the signs and often approach the world with a childlike wonder.'
+    planets: {
+        sun: 'cap sun',
+        moon: 'cap moon',
+        rising: 'cap rising'
+    }
 };
 
 const aquarius = {
@@ -116,7 +156,11 @@ const aquarius = {
     element: 'air',
     ruler: 'Uranus',
     modality: 'Fixed',
-    description: 'As a fire symbol, Aries suggests aggression and courage. Aries folks meet life head on. Aries is also the youngest of all the signs and often approach the world with a childlike wonder.'
+    planets: {
+        sun: 'aquarius sun',
+        moon: 'aquarius moon',
+        rising: 'aquarius rising'
+    }
 };
 
 const pisces = {
@@ -127,7 +171,11 @@ const pisces = {
     element: 'water',
     ruler: 'Neptune',
     modality: 'mutable',
-    description: 'As a fire symbol, Aries suggests aggression and courage. Aries folks meet life head on. Aries is also the youngest of all the signs and often approach the world with a childlike wonder.'
+    planets: {
+        sun: 'pisces sun',
+        moon: 'pisces moon',
+        rising: 'pisces rising'
+    }
 };
 
 const zodiacSigns = [aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagitarius, capricorn, aquarius, pisces];

@@ -12,17 +12,22 @@ ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
+    align-items: center;
 }
 
-#signs li {
-    
-    justify-content: center;
-    flex: 0 0 5%;
+li {
+    margin: 5px;
 }
 
-ul img {
+main img {
     width: 200px;
+    padding: 5px;
 }
 
+img:hover {
+    width: 210px;
+}
+
+input {
+    display: none;
+}
