@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 700px;;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+#signs li {
+    
+    justify-content: center;
+    flex: 0 0 5%;
+}
+
+ul img {
+    width: 200px;
+}
+
