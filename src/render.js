@@ -64,3 +64,9 @@ export function renderPlanet(planet) {
     return li;
 }
 
+export function renderResults(match) {
+    const h2 = document.createElement('h2');
+    h2.className = 'hidden';
+    h2.textContent = match;
+    return h2;
+} 

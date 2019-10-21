@@ -6,9 +6,10 @@ const aries = {
     element: 'fire',
     ruler: 'Mars',
     modality: 'cardinal',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'As a fire symbol, Aries suggests aggression, confidence, energy, and courage. Aries folks meet life head on. They are also the youngest of all the signs and often approach the world with a childlike wonder. That newness can be refreshing, like the spring after a long and cold winter. It can also bring a sense of naivite that can be charming and also frustrating due their common lack of follow through. Those born under the Aries Sun are often leaders, in fact the leaders of the leaders. These self-starters know how to get you out of a jam.',
-        moon: 'aris moon',
+        moon: 'aries moon',
         rising: 'aries rising',
     }
 };
@@ -21,6 +22,7 @@ const taurus = {
     element: 'earth',
     ruler: 'Venus',
     modality: 'fixed',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'Sweet determined Taurus, things never go unfinished when you are around. Folks born under a Taurus sun are the epitome of determination and maybe more than a little stubborn. These bulls cannot be rushed, but never fear, they will cross that finish line. Taureans tend to be the most sensual of the earth signs, seeking through their senses, particularly touch. Taurus natives also tend to have a very particular knack for finding beauty and comfort in physical possessions and earthly abundance.',
         moon: 'taurus moon',
@@ -36,6 +38,7 @@ const gemini = {
     element: 'air',
     ruler: 'Mercury',
     modality: 'mutable',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'gemini sun',
         moon: 'gemini moon',
@@ -51,6 +54,7 @@ const cancer = {
     element: 'water',
     ruler: 'Moon',
     modality: 'cardinal',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'cancer sun',
         moon: 'cancer moon',
@@ -66,6 +70,7 @@ const leo = {
     element: 'fire',
     ruler: 'Sun',
     modality: 'fixed',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'leo sun',
         moon: 'leo moon',
@@ -81,6 +86,7 @@ const virgo = {
     element: 'earth',
     ruler: 'Mercury',
     modality: 'mutable',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'virgo sun',
         moon: 'virgo moon',
@@ -96,6 +102,7 @@ const libra = {
     element: 'air',
     ruler: 'Venus',
     modality: 'cardinal',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'libra sun',
         moon: 'libra moon',
@@ -111,6 +118,7 @@ const scorpio = {
     element: 'water',
     ruler: ['Pluto', 'Mars'],
     modality: 'fixed',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'scorpio sun',
         moon: 'scorpio moon',
@@ -126,6 +134,7 @@ const sagitarius = {
     element: 'fire',
     ruler: 'Jupiter',
     modality: 'mutable',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'sag sun',
         moon: 'sag moon',
@@ -141,6 +150,7 @@ const capricorn = {
     element: 'earth',
     ruler: 'Saturn',
     modality: 'cardinal',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'cap sun',
         moon: 'cap moon',
@@ -156,6 +166,7 @@ const aquarius = {
     element: 'air',
     ruler: 'Uranus',
     modality: 'Fixed',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'aquarius sun',
         moon: 'aquarius moon',
@@ -171,6 +182,7 @@ const pisces = {
     element: 'water',
     ruler: 'Neptune',
     modality: 'mutable',
+    planetOptions: ['sun', 'moon', 'rising'],
     planets: {
         sun: 'pisces sun',
         moon: 'pisces moon',
