@@ -8,6 +8,11 @@ import allTheSignsAndPlanets from './data/results-data.js';
 const signList = document.getElementById('signs');
 const planetList = document.getElementById('planets');
 const button = document.getElementById('button');
+const restart = document.getElementById('restart');
+const section = document.getElementById('results');
+const buttons = document.getElementById('buttons');
+
+let thereIsAMatch;
 
 
 for (let i = 0; i < zodiacSigns.length; i++) {
@@ -25,13 +30,21 @@ for (let i = 0; i < planets.length; i++) {
 const signIdFromLocalStorage = getSign();
 const planetIdFromLocalStorage = getPlanet();
 
-const thereIsAMatch = lookForPlanet(signIdFromLocalStorage, planetIdFromLocalStorage, allTheSignsAndPlanets);
-
-
+thereIsAMatch = lookForPlanet(signIdFromLocalStorage, planetIdFromLocalStorage, allTheSignsAndPlanets);
 
 button.addEventListener('click', () => {
-    const h2 = document.getElementById('results');
+
+    section.classList.remove('hidden');
+    const h2 = document.createElement('h2');
     h2.textContent = thereIsAMatch;
-    h2.classList.remove('hidden');
+    section.appendChild(h2);
+    buttons.classList.add('hidden');
+    console.log(thereIsAMatch);
 });
 
+restart.addEventListener('click', () => {
+    let thereIsAMatch = '';
+    section.classList.add('hidden');
+    buttons.classList.remove('hidden');
+    console.log(thereIsAMatch);
+})
