@@ -16,6 +16,7 @@ export function renderSigns(sign) {
 
 
     radioButton.addEventListener('click', (event) => {
+        localStorage.removeItem('sign');
         const chosenSign = event.target.value;
         const signChoice = saveSign(chosenSign);
         return signChoice;
@@ -48,6 +49,7 @@ export function renderPlanet(planet) {
 
 
     radioButton.addEventListener('click', (event) => {
+        localStorage.removeItem('planet');
         const chosenPlanet = event.target.value;
         const planetChoice = savePlanet(chosenPlanet);
         return planetChoice;

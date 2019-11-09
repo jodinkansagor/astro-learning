@@ -44,15 +44,22 @@ export function getPlanet() {
     }
 }
 //not working because planet info is held in an object inside an object rather than an array inside an object
+
+// export const lookForPlanet = (signId, planetId, signs) => {
+//     return signs.find(signId => {
+//         return signId = planetId;
+//     }); 
+// };
+
+
+
 export function lookForPlanet(signId, planetId, allTheSignsAndPlanets) {
-    for (let i = 0; i < allTheSignsAndPlanets.length; i++) { 
-        const matchId1 = allTheSignsAndPlanets[i].id1;
-        const matchId2 = allTheSignsAndPlanets[i].id2;
-        
-        if (matchId1 === signId && matchId2 === planetId) {
-            return allTheSignsAndPlanets[i].story;
+    allTheSignsAndPlanets.forEach((match) => {
+        if (match.sign === signId && match.planet === planetId) {
+            console.log(match.sign);
+            return match.story;
         }   
-    }
+    });
     return null;
 }
 

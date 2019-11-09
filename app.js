@@ -14,23 +14,24 @@ const buttons = document.getElementById('buttons');
 
 let thereIsAMatch;
 
-
-for (let i = 0; i < zodiacSigns.length; i++) {
-    const sign = zodiacSigns[i];
+zodiacSigns.forEach(sign => {
     const signListElement = renderSigns(sign);
     signList.appendChild(signListElement);
-}
+});
 
-for (let i = 0; i < planets.length; i++) {
-    const planet = planets[i];
+planets.forEach(planet => {
     const planetListElement = renderPlanet(planet);
     planetList.appendChild(planetListElement);
-}
+});
+
 
 const signIdFromLocalStorage = getSign();
 const planetIdFromLocalStorage = getPlanet();
 
 thereIsAMatch = lookForPlanet(signIdFromLocalStorage, planetIdFromLocalStorage, allTheSignsAndPlanets);
+console.log(signIdFromLocalStorage, planetIdFromLocalStorage);
+
+
 
 button.addEventListener('click', () => {
 
@@ -47,4 +48,4 @@ restart.addEventListener('click', () => {
     section.classList.add('hidden');
     buttons.classList.remove('hidden');
     console.log(thereIsAMatch);
-})
+});
