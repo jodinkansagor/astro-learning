@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #9f8930;
 }
 
 header img {
@@ -20,12 +21,12 @@ li {
 }
 
 main img {
-    width: 200px;
+    width: 100px;
     padding: 5px;
 }
 
 img:hover {
-    width: 210px;
+    width: 105px;
     cursor: pointer;
 }
 

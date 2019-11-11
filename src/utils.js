@@ -22,6 +22,11 @@ export function savePlanet(planet) {
     localStorage.setItem('planet', json);
 }
 
+export function saveStory(story) {
+    const json = JSON.stringify(story);
+    localStorage.setItem('story', json);
+}
+
 
 //get from local storage
 export function getSign() {
@@ -43,23 +48,23 @@ export function getPlanet() {
         return planet;
     }
 }
-//not working because planet info is held in an object inside an object rather than an array inside an object
 
-// export const lookForPlanet = (signId, planetId, signs) => {
-//     return signs.find(signId => {
-//         return signId = planetId;
-//     }); 
-// };
-
-
-
-export function lookForPlanet(signId, planetId, allTheSignsAndPlanets) {
-    allTheSignsAndPlanets.forEach((match) => {
-        if (match.sign === signId && match.planet === planetId) {
-            console.log(match.sign);
-            return match.story;
-        }   
-    });
-    return null;
+export function getStory() {
+    const json = localStorage.getItem('story');
+    if (!json) {
+        return null;
+    } else {
+        const story = JSON.parse(json);
+        return story;
+    }
 }
 
+export function lookForPlanet(signId, planetId, allTheSignsAndPlanets) {
+    let myMatch = [];
+    for (let i = 0; i < allTheSignsAndPlanets.length; i++) {
+        if (allTheSignsAndPlanets[i].sign === signId && allTheSignsAndPlanets[i].planet === planetId) {
+            myMatch.push(allTheSignsAndPlanets[i].story);
+            return myMatch;
+        } 
+    }
+}

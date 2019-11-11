@@ -2,127 +2,146 @@
 export const allTheSignsAndPlanets = [{
     sign: 'aries',
     planet: 'sun',
-    story: 'aries sun'
-},
-{
+    story: 'As a fire symbol, Aries suggests aggression, confidence, energy, and courage. Aries folks meet life head on. They are also the youngest of all the signs and often approach the world with a childlike wonder. That newness can be refreshing, like the spring after a long and cold winter. It can also bring a sense of naivite that can be charming and also frustrating due their common lack of follow through. Those born under the Aries Sun are often leaders, in fact the leaders of the leaders. These self-starters know how to get you out of a jam.'
+}, {
     sign: 'aries',
     planet: 'moon',
     story: 'aries moon'
-},
-{
+}, {
     sign: 'aries',
     planet: 'rising',
     story: 'aries rising'
-},
-{
+}, {
     sign: 'taurus',
     planet: 'sun',
-    story: 'taurus sun'
-},
-{
+    story: 'Sweet determined Taurus, things never go unfinished when you are around. Folks born under a Taurus sun are the epitome of determination and maybe more than a little stubborn. These bulls cannot be rushed, but never fear, they will cross that finish line. Taureans tend to be the most sensual of the earth signs, seeking through their senses, particularly touch. Taurus natives also tend to have a very particular knack for finding beauty and comfort in physical possessions and earthly abundance.'
+}, {
     sign: 'taurus',
-    planet: 'moon',
+    planet: 'moon',    
     story: 'taurus moon'
-},
-{
+}, {
     sign: 'taurus',
     planet: 'rising',
     story: 'taurus rising'
+}, {
+    sign: 'gemini',
+    planet: 'sun',    
+    story: 'Oh chatty Gemini! Your curiosity, need for collecting information, and self-expression is strong. Gemini suns tend to be witty, adaptable, and clever.'
+}, {
+    sign: 'gemini',
+    planet: 'moon',
+    story: 'gemini moon'
+}, {
+    sign: 'gemini',
+    planet: 'rising',
+    story: 'gemini rising',
+}, {
+    sign: 'cancer',
+    planet: 'sun',    
+    story: 'cancer sun'
+}, {
+    sign: 'cancer',
+    planet: 'moon',
+    story: 'cancer moon'
+}, {
+    sign: 'cancer',
+    planet: 'rising',
+    story: 'cancer rising',
+}, {
+    sign: 'leo',
+    planet: 'sun',    
+    story: 'leo sun'
+}, {
+    sign: 'leo',
+    planet: 'moon',
+    story: 'leo moon'
+}, {
+    sign: 'leo',
+    planet: 'rising',
+    story: 'leo rising',
+}, {
+    sign: 'virgo',
+    planet: 'sun',    
+    story: 'virgo sun'
+}, {
+    sign: 'virgo',
+    planet: 'moon',
+    story: 'virgo moon'
+}, {
+    sign: 'virgo',
+    planet: 'rising',
+    story: 'virgo rising',
+}, {
+    sign: 'libra',
+    planet: 'sun',    
+    story: 'libra sun'
+}, {
+    sign: 'libra',
+    planet: 'moon',
+    story: 'libra moon'
+}, {
+    sign: 'libra',
+    planet: 'rising',
+    story: 'libra rising',
+}, {
+    sign: 'scorpio',
+    planet: 'sun',    
+    story: 'scorpio sun'
+}, {
+    sign: 'scorpio',
+    planet: 'moon',
+    story: 'scorpio moon'
+}, {
+    sign: 'scorpio',
+    planet: 'rising',
+    story: 'scorpio rising',
+}, {
+    sign: 'sagitarius',
+    planet: 'sun',    
+    story: 'sagitarius sun'
+}, {
+    sign: 'sagitarius',
+    planet: 'moon',
+    story: 'sagitarius moon'
+}, {
+    sign: 'sagitarius',
+    planet: 'rising',
+    story: 'sagitarius rising',
+},
+{
+    sign: 'capricorn',
+    planet: 'sun',    
+    story: 'capricorn sun'
+}, {
+    sign: 'capricorn',
+    planet: 'moon',
+    story: 'capricorn moon'
+}, {
+    sign: 'capricorn',
+    planet: 'rising',
+    story: 'capricorn rising',
+}, {
+    sign: 'aquarius',
+    planet: 'sun',    
+    story: 'aquarius sun'
+}, {
+    sign: 'aquarius',
+    planet: 'moon',
+    story: 'aquarius moon'
+}, {
+    sign: 'aquarius',
+    planet: 'rising',
+    story: 'aquarius rising',
+}, { 
+    sign: 'pisces',
+    planet: 'sun',    
+    story: 'pisces sun'
+}, {
+    sign: 'pisces',
+    planet: 'moon',
+    story: 'pisces moon'
+}, {
+    sign: 'pisces',
+    planet: 'rising',
+    story: 'pisces rising',
 }];
-
-
-
-
-// const ariesSun = {
-//     id1: 'aries',
-//     id2: 'sun',
-//     story: 'As a fire symbol, Aries suggests aggression, confidence, energy, and courage. Aries folks meet life head on. They are also the youngest of all the signs and often approach the world with a childlike wonder. That newness can be refreshing, like the spring after a long and cold winter. It can also bring a sense of naivite that can be charming and also frustrating due their common lack of follow through. Those born under the Aries Sun are often leaders, in fact the leaders of the leaders. These self-starters know how to get you out of a jam.'
-// };
-
-// const ariesMoon = {
-//     id1: 'aries',
-//     id2: 'moon',
-//     story: 'aries moon'
-// };
-
-// const ariesRising = {
-//     id1: 'aries',
-//     id2: 'rising',
-//     story: 'aries rising'
-// };
-
-// const taurusSun = {
-//     id1: 'taurus',
-//     id2: 'sun',
-//     story: 'Sweet determined Taurus, things never go unfinished when you are around. Folks born under a Taurus sun are the epitome of determination and maybe more than a little stubborn. These bulls cannot be rushed, but never fear, they will cross that finish line. Taureans tend to be the most sensual of the earth signs, seeking through their senses, particularly touch. Taurus natives also tend to have a very particular knack for finding beauty and comfort in physical possessions and earthly abundance.'
-// };
-
-// const taurusMoon = {
-//     id1: 'taurus',
-//     id2: 'moon',    
-//     story: 'taurus moon'
-// };
-
-// const taurusRising = {
-//     id1: 'taurus',
-//     id2: 'rising',
-//     story: 'taurus rising'
-// };
-
-// const geminiSun = {
-//     id1: 'gemini',
-//     id2: 'sun',    
-//     story: 'gemini sun'
-// };
-
-// const geminiMoon = {
-//     id1: 'gemini',
-//     id2: 'moon',
-//     story: 'gemini moon'
-// };
-
-// const geminiRising = {
-//     id1: 'gemini',
-//     id2: 'rising',
-//     story: 'gemini rising',
-// };
-
-// const cancerSun = 'cancer sun';
-// const cancerMoon = 'cancer moon';
-// const cancerRising = 'cancer rising';
-
-// const leoSun = 'leo sun';
-// const leoMoon = 'leo moon';
-// const leoRising = 'leo rising';
-
-// const virgoSun = 'virgo sun';       
-// const virgoMoon = 'virgo moon';
-// const virgoRising = 'virgo rising';
-
-// const libraSun = 'libra sun';
-// const libraMoon = 'libra moon';
-// const libraRising = 'libra rising';
-
-// const scorpioSun = 'scorpio sun';
-// const scorpioMoon = 'scorpio moon';
-// const scorpioRising = 'scorpio rising';
-
-// const sagitariusSun = 'sag sun';      
-// const SagitariusMoon = 'sag moon';       
-// const sagitariusRising = 'sag rising';
-
-// const capricornSun = 'cap sun';
-// const capriconMoon = 'cap moon';
-// const capricornRising = 'cap rising';
-
-// const aquariusSun = 'aquarius sun';
-// const aquariusMoon = 'aquarius moon';
-// const aquariusRising = 'aquarius rising';
-
-// const pisceSsun = 'pisces sun';
-// const piscesMoon = 'pisces moon';
-// const piscesRising = 'pisces rising';
-
-// const allTheSignsAndPlanets = [ariesSun, ariesMoon, ariesRising, taurusSun, taurusMoon, taurusRising, geminiSun, geminiMoon, geminiRising, cancerSun, cancerMoon, cancerRising, leoSun, leoMoon, leoRising, virgoSun, virgoMoon, virgoRising, libraSun, libraMoon, libraRising, scorpioSun, scorpioMoon, scorpioRising, sagitariusSun, SagitariusMoon, sagitariusRising, capricornSun, capriconMoon, capricornRising, aquariusSun, aquariusMoon, aquariusRising, pisceSsun, piscesMoon, piscesRising];
-
-// export default allTheSignsAndPlanets;

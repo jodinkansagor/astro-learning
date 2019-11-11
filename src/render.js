@@ -16,6 +16,7 @@ export function renderSigns(sign) {
 
 
     radioButton.addEventListener('click', (event) => {
+        
         localStorage.removeItem('sign');
         const chosenSign = event.target.value;
         const signChoice = saveSign(chosenSign);
@@ -66,9 +67,11 @@ export function renderPlanet(planet) {
     return li;
 }
 
-export function renderResults(match) {
-    const h2 = document.createElement('h2');
-    h2.className = 'hidden';
-    h2.textContent = match;
-    return h2;
+export function renderStory(storyFromStorage) {
+    const li = document.createElement('li');
+    const storyH2 = document.createElement('h2');
+    storyH2.textContent = storyFromStorage;
+    li.appendChild(storyH2);
+
+    return li;
 } 
