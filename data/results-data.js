@@ -26,7 +26,7 @@ export const allTheSignsAndPlanets = [{
 }, {
     sign: 'gemini',
     planet: 'sun',    
-    story: 'Oh chatty Gemini! Your curiosity, need for collecting information, and self-expression is strong. Gemini suns tend to be witty, adaptable, and clever.'
+    story: 'Oh chatty Gemini! Your curiosity, need for collecting information, and extreme self-expression are all strong qualities. Gemini suns tend to be witty, adaptable, and clever, but can also be superficial and flighty. They get the bad rep of being two-faced, but this dual nature can also serve a Gemini well, allowing them to adapt to new situations and communicate in innovative ways. Speaking of communication, Mercury rules Gemini and has a knack for getting his point across. All this being said, people tend to like being around Geminis, even if they do not want to admit it.'
 }, {
     sign: 'gemini',
     planet: 'moon',
@@ -38,7 +38,7 @@ export const allTheSignsAndPlanets = [{
 }, {
     sign: 'cancer',
     planet: 'sun',    
-    story: 'cancer sun'
+    story: 'Squishy tender Cancer. You take that #crablife seriously with your strong survival instinct and protective streak. You carry your home with you wherever you go and yet keep it hidden within that outer shell. Some people think a Cancer sun is moody, but they know that they are just trying to stay secure in an insecure world.'
 }, {
     sign: 'cancer',
     planet: 'moon',
@@ -50,7 +50,7 @@ export const allTheSignsAndPlanets = [{
 }, {
     sign: 'leo',
     planet: 'sun',    
-    story: 'leo sun'
+    story: 'It\'s always your time to shine Leo. '
 }, {
     sign: 'leo',
     planet: 'moon',

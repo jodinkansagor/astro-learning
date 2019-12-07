@@ -10,25 +10,38 @@ header img {
     width: 700px;;
 }
 
+h1 {
+    text-align: center;
+}
+
 ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     align-items: center;
+    padding: 0px;
 }
 
 li {
     margin: 5px;
+    list-style: none;
+    
 }
 
 main img {
     width: 100px;
     padding: 5px;
+    transition: background-color 0.5s ease;
 }
 
 img:hover {
-    width: 105px;
+    /* width: 105px; */
     cursor: pointer;
+    background-color: slategray;
+}
+
+img:active {
+    background-color: #081254;
 }
 
 input {
