@@ -2,16 +2,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #9f8930;
-    color: #081254
+    color: #525252;
+    font-family: 'Open Sans', sans-serif
 }
 
-header img {
-    width: 700px;;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%
 }
 
-h1 {
-    text-align: center;
+.header h1 {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.header h3 {
+    font-size: 30px;
+    padding-bottom: 10px        ;
+    margin: 5px;
+    border-bottom: 1px solid #525252;
+    width: 100% 
 }
 
 ul {
@@ -53,8 +65,8 @@ input {
 }
 button {
     font-size: 20px;
-    background-color: #081254;
-    color: #9f8930;
+    background-color: #525252;
+    color: white;
     border: none;
     cursor: pointer;
     padding: 10px;

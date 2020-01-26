@@ -1,19 +1,19 @@
 const sun = {
     id: 'sun',
     name: 'Sun',
-    image: 'sun-gold.png' 
+    image: 'sun-white.png' 
 };
 
 const moon = {
     id: 'moon',
     name: 'Moon',
-    image: 'moon-gold.png'
+    image: 'moon-white.png'
 };
 
 const rising = {
     id: 'rising',
     name: 'Rising',
-    image: 'rising-gold.png'
+    image: 'rising-white.png'
 };
 
 const planets = [sun, moon, rising];
