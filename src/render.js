@@ -27,7 +27,7 @@ export function renderSigns(sign) {
     radioLabel.appendChild(radioButton);
 
     const img = document.createElement('img');
-    img.src = '../assets/' + sign.symbolImg;
+    img.src = `../assets/${sign.symbolImg}`;
     img.alt = sign.id;
     radioLabel.appendChild(img);
 
