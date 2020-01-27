@@ -1,5 +1,6 @@
 import { saveSign, savePlanet } from '../src/utils.js';
 
+
 export function renderSigns(sign) {
     
     const li = document.createElement('li');
@@ -23,11 +24,10 @@ export function renderSigns(sign) {
         return signChoice;
     });
 
-
     radioLabel.appendChild(radioButton);
 
     const img = document.createElement('img');
-    img.src = `../assets/${sign.symbolImg}`;
+    img.src = `https://jodinkansagor.github.io/astro-learning/assets/${sign.symbolImg}`;
     img.alt = sign.id;
     radioLabel.appendChild(img);
 
@@ -60,7 +60,7 @@ export function renderPlanet(planet) {
     radioLabel.appendChild(radioButton);
 
     const img = document.createElement('img');
-    img.src = '../assets/' + planet.image;
+    img.src = `https://jodinkansagor.github.io/astro-learning/assets/${planet.image}`;
     img.alt = planet.id;
     radioLabel.appendChild(img);
 
